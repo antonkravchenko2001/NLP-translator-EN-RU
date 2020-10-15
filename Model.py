@@ -3,12 +3,12 @@ import json
 import numpy as np
 
 
-with open('C:\\Users\\anton\\PycharmProjects\\Machine_translation\\input_dict.json', 'r') as fp:
+with open('C:\\Users\\anton\\PycharmProjects\\Translator\\input_dict.json', 'r') as fp:
     input_dict = json.load(fp)
-with open('C:\\Users\\anton\\PycharmProjects\\Machine_translation\\target_dict_r.json', 'r') as fp:
+with open('C:\\Users\\anton\\PycharmProjects\\Translator\\target_dict_r.json', 'r') as fp:
     target_dict_r = json.load(fp)
-encoder_model = tf.keras.models.load_model('C:\\Users\\anton\\PycharmProjects\\Machine_translation\\encoder.h5')
-decoder_model = tf.keras.models.load_model('C:\\Users\\anton\\PycharmProjects\\Machine_translation\\decoder.h5')
+encoder_model = tf.keras.models.load_model('C:\\Users\\anton\\PycharmProjects\\Translator\\encoder.h5')
+decoder_model = tf.keras.models.load_model('C:\\Users\\anton\\PycharmProjects\\Translator\\decoder.h5')
 
 
 def encode(seq):
