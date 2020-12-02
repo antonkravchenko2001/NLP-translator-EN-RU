@@ -1,2 +1,2 @@
 # Machine_translation_English_to_Russian
-I build an se2seq model using Tensorflow Framework. Using built model I trained an English ti Russian translator and deployed project in Flask
+I built an se2seq model using Tensorflow Framework. Using the model I trained an English to Russian translator and deployed project in Flask. This repo containes Colab file with detailed overview of the model.
