@@ -6,7 +6,7 @@ app = Flask(__name__)
 urls = ['translate']
 
 
-@app.route("/translator", methods=["POST", "GET"])
+@app.route("/", methods=["POST", "GET"])
 def home():
     if request.method == "POST":
         for word in request.form["sentence"].split():
